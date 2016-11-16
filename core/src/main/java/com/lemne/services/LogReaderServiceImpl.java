@@ -6,7 +6,7 @@ package com.lemne.services;
 public class LogReaderServiceImpl implements LogReaderService {
 
     @Override
-    public void OpenFile(){
+    public void getCharsByLine(String path){
         System.out.print("hi, file opened");
     }
 }

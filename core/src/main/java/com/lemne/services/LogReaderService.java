@@ -5,5 +5,5 @@ package com.lemne.services;
  */
 public interface LogReaderService {
 
-    void OpenFile();
+    void getCharsByLine(String path);
 }

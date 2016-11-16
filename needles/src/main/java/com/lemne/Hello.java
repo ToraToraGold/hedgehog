@@ -10,6 +10,6 @@ public class Hello {
 
     public static void main (String[] args){
         LogReaderService logReaderService = new LogReaderServiceImpl();
-        logReaderService.OpenFile();
+        logReaderService.getCharsByLine("D:\\logs\\access_wwl_log");
     }
 }
