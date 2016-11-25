@@ -1,2 +1,14 @@
-apply plugin: 'idea'
 apply plugin: 'java'
+apply plugin: 'groovy'
+apply from: "libs.gradle"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile lib.slf4j
+    compile lib.logback_classic
+    compile lib.guice
+    compile lib.logback_core
+}

@@ -2,6 +2,8 @@ package com.lemne;
 
 import com.lemne.services.LogReaderService;
 import com.lemne.services.LogReaderServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Created by aeremia on 11/16/2016.
